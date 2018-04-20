@@ -1,0 +1,30 @@
+.container {
+  max-width: 750px;
+  margin: 20px auto 0 auto;
+  padding: 30px;
+  background-color:#f2f2f2;
+}
+
+.column-layout {
+  background-color: white;
+  padding:25px 50px;
+  display: flex;
+}
+
+.main-column {
+  flex: 1;
+  order: 2;
+
+
+}
+
+.sidebar-one{
+ flex: 1;
+ order: 1;
+}
+
+.sidebar-two {
+  flex: 1;
+  order: 3;
+
+}

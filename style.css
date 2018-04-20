@@ -1,0 +1,45 @@
+body {
+  background-color: #967425;
+}
+
+h2 {
+  color: blue;
+}
+
+.container h2 {
+  text-align: left;
+  color: green;
+}
+
+.columns-layout {
+  background-color: #87BBA2;
+  display: flex;
+  /* padding: 25px 50px; */
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.arm .chest .leg {
+  box-sizing: border-box;
+  padding: 20px;
+  width: 30%;
+}
+
+.bad .good {
+  box-sizing: border-box;
+  padding: 20px;
+  width: 49%;
+}
+
+/* columns  */
+
+@media screen and (max-width:380px) {
+  .columns-layout {
+    display: block;
+  }
+  .job .cert .sch {
+    width: 100%;
+  }
+  .vertical-menu {
+    width: 200px;
+  }
